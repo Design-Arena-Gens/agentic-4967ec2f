@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+.hero-grid {
+  background: radial-gradient(circle, rgba(59,130,246,0.25) 0%, rgba(15,23,42,0.9) 60%),
+    linear-gradient(135deg, rgba(15,118,110,0.25) 0%, rgba(15,23,42,0.75) 100%);
+}
